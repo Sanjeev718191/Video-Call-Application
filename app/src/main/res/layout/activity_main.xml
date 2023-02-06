@@ -34,7 +34,8 @@
             android:layout_below="@+id/remote_user"
             android:layout_alignStart="@id/remote_user"
             android:text="Join Call"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:onClick="joinChannel"/>
 
         <Button
             android:id="@+id/leaveButton"
@@ -43,7 +44,8 @@
             android:layout_below="@+id/remote_user"
             android:layout_alignEnd="@id/remote_user"
             android:text="leave Call"
-            android:layout_marginTop="16dp"/>
+            android:layout_marginTop="16dp"
+            android:onClick="leaveChannel"/>
 
     </RelativeLayout>
 
